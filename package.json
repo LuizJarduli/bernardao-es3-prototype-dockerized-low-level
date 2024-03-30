@@ -1,0 +1,31 @@
+{
+  "name": "bernardao-prototype-dockerized",
+  "version": "6.6.6",
+  "description": "FATEC Bernardo 'original' prototype",
+  "main": "bernardo.exe",
+  "scripts": {
+    "test": "echo \"O Brabo\"",
+    "start:v1": "docker-compose -f docker-compose.dev.yml up --build",
+    "start:v2": "docker compose -f docker-compose.dev.yml up --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizJarduli/bernardao-es3-prototype-dockerized-low-level.git"
+  },
+  "keywords": [
+    "bernardao",
+    "up",
+    "altas-aventuras",
+    "fatec-so",
+    "munari"
+  ],
+  "author": "Luiz Miguel Jarduli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuizJarduli/bernardao-es3-prototype-dockerized-low-level/issues"
+  },
+  "homepage": "https://github.com/LuizJarduli/bernardao-es3-prototype-dockerized-low-level#readme",
+  "engines": {
+    "node": "<=20"
+  }
+}
