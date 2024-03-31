@@ -25,10 +25,10 @@ If you opt to run via docker only (docker compose v1 or v2) run in the root of t
 
 ```sh
 # If Docker compose v1 use
-docker-compose -f docker.compose.dev.yml up --build
+docker-compose -f docker.compose-dev.yml up --build
 
 # If docker compose v2..
-docker compose -f docker.compose.dev.yml up --build
+docker compose -f docker-compose.dev.yml up --build
 ```
 
 Optionally, there is a npm script to run and make this docker command a shortcut in there.
